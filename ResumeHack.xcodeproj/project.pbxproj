@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					718493621F4748ED0063A447 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = PPC767LG62;
+						DevelopmentTeam = 4AT3XX2QKF;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -259,10 +259,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PPC767LG62;
+				DEVELOPMENT_TEAM = 4AT3XX2QKF;
 				INFOPLIST_FILE = ResumeHack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ResumeHack.Ray.ResumeHack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ResumeHack.Ray;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,10 +272,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PPC767LG62;
+				DEVELOPMENT_TEAM = 4AT3XX2QKF;
 				INFOPLIST_FILE = ResumeHack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ResumeHack.Ray.ResumeHack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ResumeHack.Ray;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

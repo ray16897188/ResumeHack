@@ -10,9 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var webView: UIWebView!
+    
+    @IBAction func moveBack(_ sender: UIBarButtonItem) {
+        webView.goBack()
+    }
+    
+    @IBAction func moveForward(_ sender: UIBarButtonItem) {
+        webView.goForward()
+    }
+    
+    @IBAction func refresh(_ sender: UIBarButtonItem) {
+        webView.reload()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        webView.loadRequest(URLRequest(url: URL(string: "https://jianliheike.cn")!))
+
     }
 
     override func didReceiveMemoryWarning() {
